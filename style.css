@@ -1,0 +1,135 @@
+style.css
+
+@font-face{
+	font-family:'Vintage' ;
+	src: url('Vintage-police.ttf');
+}
+
+h1{
+	color: rgb(210, 254, 249, 1.0);
+	text-decoration: line-through;
+	font-size: 1050%;
+	text-align: center;
+	font-family: Garamond, serif;
+	text-shadow: 25px 25px 15px 15px cyan;
+}
+
+body{
+	background-image: url(Space.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+nav{
+	font-size: 100%;
+	text-align: center;f
+	ont-family:Helvetica, sans-serif ;
+	
+}
+nav p{
+	border: solid;
+	border-radius: 45px;
+	border color: rgb(226, 122, 52, 1.0);
+	background-color: rgb(226, 122, 52, 1.0);
+	margin: 20px 500px;
+}
+
+nav p:hover{
+	transform: scale(1.05);
+}
+
+
+h3{
+	color: darkslateblue;
+	font-size: 250%;
+	font-family: Segoe UI, sans-serif;
+	text-align: center;
+	margin: auto 20px;
+
+}
+
+section p{
+	
+	color: darkslateblue;
+	font-size: 150%;
+	font-family: Helvetica, sans-serif ;	
+}
+
+#Intro{
+	text-align: center;
+
+}
+
+div{
+	border: solid;
+	border-radius: 90px;
+	border-color: ghostwhite;
+	border-width: 10px;
+	background-color: rgb(212, 201, 247, 0.5);
+	box-shadow: 0px 0px 15px 5px rgb(165, 115, 37, 1,0);
+	margin: 40px 60px;
+}
+div:hover{
+	transform: scale(1.05);
+}
+
+
+.card {
+  width: 600px; 
+  height: 500px;
+  background-color: rgb(212, 201, 247, 0.5);
+  margin-right: 10px; 
+  display: inline-flex; 
+  align-items: center;
+}
+
+
+
+footer{
+ 	text-align: center;
+}
+
+a{
+	color:rgb(226, 122, 52, 1.0) ;
+	font-size: 400%; 
+	letter-spacing: 100px;
+}
+
+a:hover{
+	color: darkslateblue;
+}
+
+#Moi{
+	border-radius: 50%;
+	text-align: center;
+	width: 400px;
+	height: 400px;
+	margin: auto 500px;
+}
+
+form {
+  align-items: center;
+  margin: 20px auto;
+}
+
+input[type="text"] {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 45px;
+}
+
+button {
+  padding: 8px 12px;
+  font-size: 16px;
+  background-color: rgb(226, 122, 52, 1.0);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkslateblue;
+}
+
